@@ -26,8 +26,7 @@
 </head>
 <body>
 
-<h1>聚餐分帳計算器</h1>
-<img src="src/my-image.jpg" alt="Description">
+<h1>聚餐分帳計算器<img src="src/1.jpg" alt="Description"width="45" height="45"></h1>
 
 <form id="bill-form">
     <div class="input-group">
@@ -198,7 +197,7 @@ document.getElementById('add-item').addEventListener('click', () => {
     function displayResults(output) {
         const resultContainer = document.getElementById('result-container');
         resultContainer.innerHTML = `
-            <h2>分帳結果</h2>
+            <h2>分帳結果<img src="src/2.jpg" alt="Description"width="45" height="45"></h2>
             <p>日期：${output.date}</p>
             <p>地點：${output.location}</p>
             <p>小計：<span class="currency">$${output.subTotal.toFixed(1)}</span></p>
